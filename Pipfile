@@ -9,6 +9,7 @@ verify_ssl = true
 django = "*"
 djangorestframework = "*"
 flake8 = "*"
+django-cors-middleware = "*"
 
 [requires]
 python_version = "3.7"
