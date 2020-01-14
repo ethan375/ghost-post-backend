@@ -6,4 +6,4 @@ class PostSerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Post
-        fields = ['up_votes', 'down_votes', 'body', 'creation_time', 'boast']
+        fields = ['up_votes', 'down_votes', 'body', 'creation_time', 'boast', 'id']

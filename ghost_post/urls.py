@@ -5,8 +5,7 @@ from ghosting import views
 
 
 router = routers.DefaultRouter()
-router.register(r'all-posts', views.PostsViewSet)
-
+router.register(r'posts', views.PostsViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
